@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Fast algorithms</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+<!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+  -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+    
+    
+<body>
+
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+
+        <div class="row">
+            <div class="one-full column" style="margin-top: 5%" align="center">
+            <h2>FAST ALGORITHMS</h2>
+                <p>A collection of codes for solving integral equation formulations of boundary value problems.</p>
+            </div>
+        </div>
+
+    
+        <div class="row">
+            <div class="one-full column" style="margin-top: 0%" align="center">
+                <img class="media-object" src="images/title.jpg" width="90%">
+            </div>
+<!--
+            <div class="four columns" style="margin-top: 0%" align="center">
+                <img class="media-object" src="images/cap-dens.jpg" width="90%"><br>
+                asdfasdf
+            </div>
+            <div class="four columns" style="margin-top: 0%" align="center">
+                <img class="media-object" src="images/a380.jpg" width="90%"><br>
+                asdfasdf
+            </div>
+            <div class="four columns" style="margin-top: 0%" align="center">
+                <img class="media-object" src="images/pipe1.jpg" width="90%"><br>
+                asdfasd
+            </div>
+-->
+        </div>
+
+    
+        <!-- fmm3dbie libary info -->
+        
+        <div class="row">
+            <div class="one-full column" style="margin-top: 15%">
+                <h4><code>fmm3dbie</code></h4>
+                <h4>FMM-accelerated surface integral equation solvers</h4>
+                    <p>Linking with the latest <a href="https://github.com/flatironinstitute/fmm3d">FMM3D library</a> maintained by the Flatiron Institute, this package contains fast solvers for various boundary value problems for the Laplace, Helmholtz, and Maxwell equations. See the below papers for more information regarding the underlying algorithms and techniques.</p>
+                <p>Funded in part by the Office of Naval Research and The Simons Foundation.</p>
+                <ul>
+                    <li>Fast multipole methods for the evaluation of
+                    layer potentials with locally-corrected
+                    quadratures, L. Greengard, M. O'Neil, M. Rachh,
+                      and F. Vico,
+                      arXiv:2006.02545, 2020.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="six columns" style="margin-top: 0%">
+                <strong>Maintainers</strong>
+                 <p>Leslie Greengard (Flatiron, NYU)<br>
+                        Mike O'Neil (NYU)<br>
+                        Manas Rachh (Flatiron)<br>
+                        Felipe Vico (Valencia)
+                    </p>
+            </div>          
+            <div class="three columns" style="margin-top: 0%">
+                <strong>Download</strong><br>
+                <a class="button" href="https://gitlab.com/fastalgorithms/fmm3dbie">GitLab</a>
+            </div>
+            <div class="three columns" style="margin-top: 0%">
+                <strong>Documentation</strong><br>
+                <a class="button" href="https://fmm3dbie.readthedocs.io">Read the Docs</a>
+            </div>
+        </div>
+
+    
+        
+        <!-- chunkie libary info -->
+        
+        <div class="row">
+            <div class="one-full column" style="margin-top: 15%">
+                <h4><code>chunkie</code></h4>
+                <h4>Adaptive boundary integral equation solvers</h4>
+                <p>Efficient, Matlab-based collection of routines for solving integral equations along curves in two dimensions.</p>
+                <p>Funded in part by the Office of Naval Research.</p>
+            </div>          
+        </div>
+        <div class="row">
+            <div class="six columns" style="margin-top: 0%">
+                <strong>Maintainers</strong>
+                 <p>Travis Askham (NJIT)<br>
+                     Mike O'Neil (NYU)<br>
+                     Manas Rachh (Flatiron)
+                    </p>
+            </div>          
+            <div class="three columns" style="margin-top: 0%">
+                <strong>Download</strong><br>
+                <a class="button" href="https://github.com/fastalgorithms/chunkie">GitHub</a>
+            </div>
+            <div class="three columns" style="margin-top: 0%">
+                <strong>Documentation</strong><br>
+            </div>
+        </div>
+
+    
+        
+        <!-- ID library -->
+        <div class="row">
+            <div class="one-full column" style="margin-top: 15%">
+                <h4><code>idlib</code></h4>
+                <h4>Interpolative decompositions</h4>
+                <p>Efficient randomized linear algebra routines for computing interpolative decompositions of real and complex matrices. Originally released by Mark Tygert, this repository contained a slightly updated version compatible with OpenMP accelerations. For more info, see:</p>
+                <ul>
+                <li>P.-G. Martinsson, V. Rokhlin, Y. Shkolnisky, and M. Tygert, ID: a software package for low-rank approximation of matrices via interpolative decompositions,  <a href="http://tygert.com/software.html">tygert.com/software.html</a></li>
+                </ul>
+            </div>          
+        </div>
+        <div class="row">
+            <div class="six columns" style="margin-top: 0%">
+                <strong>Maintainers</strong>
+                 <p>Gunnar Martinsson (UT Austin)<br>
+                     Vladimir Rokhlin (Yale)<br>
+                     Yoel Shkolnisky (Tel Aviv)<br>
+                     Mark Tygert (Facebook)
+                    </p>
+            </div>          
+            <div class="three columns" style="margin-top: 0%">
+                <strong>Download</strong><br>
+                <a class="button" href="https://gitlab.com/fastalgorithms/libid">GitLab</a>
+            </div>
+            <div class="three columns" style="margin-top: 0%">
+                <strong>Documentation</strong><br>
+            </div>
+        </div>
+        
+        
+        <!-- FMM3D library -->
+        <div class="row">
+            <div class="one-full column" style="margin-top: 15%">
+                <h4><code>FMM3D</code></h4>
+                <h4>3D Fast Multipole Methods</h4>
+                <p>Shared memory parallelized fast multipole libraries for 3D Laplace and (low-frequency) Helmholtz potentials. Maintained by the Flatiron Institute.</p>
+            </div>          
+        </div>
+        <div class="row">
+            <div class="six columns" style="margin-top: 0%">
+                <strong>Maintainers</strong>
+                 <p>Zydrunas Gimbutas (NIST)<br>
+                     Leslie Greengard (NYU, Flatiron Institute)<br>
+                     Libin Lu (Flatiron Institute)<br>
+                     Jeremy Magland (Flatiron Institute)<br>
+                     Dhairya Malhotra (NYU)<br>
+                     Mike O'Neil (NYU)<br>
+                     Manas Rachh (Flatiron Institute)<br>
+                     Vladimir Rokhlin (Yale)
+                    </p>
+            </div>          
+            <div class="three columns" style="margin-top: 0%">
+                <strong>Download</strong><br>
+                <a class="button" href="https://github.com/flatironinstitute/fmm3d">GitHub</a>
+            </div>
+            <div class="three columns" style="margin-top: 0%">
+                <strong>Documentation</strong><br>
+                <a class="button" href="https://fmm3d.readthedocs.io">Read the Docs</a>
+            </div>
+        </div>
+        
+        
+        
+        <div class="row">
+            <div class="one-full column" style="margin-top: 10%" align="center">
+                <p><a href="mailto:contact@fastalgorithms.org">Contact</a> us.</p>
+                <p>Created with <a href="http://www.getskeleton.com">Skeleton</a>.</p>
+            </div>          
+        </div>
+
+    
+    
+    
+    </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
